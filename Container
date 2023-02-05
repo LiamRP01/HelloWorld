@@ -1,0 +1,15 @@
+docker run -d -p 80:80 docker/Container 1
+
+
+
+
+FROM node:12-alpine
+RUN apk add --no-cache python2 g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "/app/src/index.js"]
+
+docker build -t COntainer 1 .
+
+docker run -dp 3000:3000 Container 1
