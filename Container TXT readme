@@ -1,3 +1,5 @@
-To run the container with the code, you will need to run the following command line:
+To run the container with the code, you should need to download the Container file whic should download the JSON document which allows you to run the script to create a container.
+
+You will need to run the following command line:
 
 docker run -dp 3000:3000 getting-started
