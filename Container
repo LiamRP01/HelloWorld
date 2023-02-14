@@ -12,4 +12,3 @@ CMD ["node", "/app/src/index.js"]
 
 docker build -t COntainer 1 .
 
-docker run -dp 3000:3000 Container 1
