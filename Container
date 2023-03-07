@@ -10,5 +10,5 @@ COPY . .
 RUN yarn install --production
 CMD ["node", "/app/src/index.js"]
 
-docker build -t COntainer 1 .
+docker build -t Container 1 .
 
