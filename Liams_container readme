@@ -1,5 +1,7 @@
 To run the container, you first need to pull the Github repo to your local file explorer - "git clone https://github.com/LiamRP01/HelloWorld.git"
 Then change your current directory to the Github one, wherever that may be stored on your C drive using the "cd" command 
 
-You then need to run "docker build liams_container"
+You then need to run "docker build -t liams_container"
 Then you can do "docker run liams_container"
+
+This should then run the app.js which should be stored in the container, which you should be able to see when you run "docker run liams_container ls"
