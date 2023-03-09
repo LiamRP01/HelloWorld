@@ -1,4 +1,4 @@
-To run the container, you first need to pull the Github repo to your local file explorer - "git clone https://github.com/LiamRP01/HelloWorld.git"
+To run the container, you first need to pull the Github repo to your local file explorer - "docker run --name repo Helloworld/git clone https://github.com/LiamRP01/HelloWorld.git"
 Then change your current directory to the Github one, wherever that may be stored on your C drive using the "cd" command 
 
 You then need to run "docker build -t liams_container"
